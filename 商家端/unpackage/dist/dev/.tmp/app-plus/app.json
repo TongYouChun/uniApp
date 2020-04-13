@@ -1,0 +1,73 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/My/query/query",
+    "pages/My/staff/addstaff",
+    "pages/My/commodity/addproduct",
+    "pages/My/group/See",
+    "pages/My/group/modify",
+    "pages/Statistics/Statistics",
+    "pages/My/capital/Analysis",
+    "pages/My/activity/Discount",
+    "pages/Statistics/Complaint/Complaint",
+    "pages/Statistics/Complaint/detailed",
+    "pages/My/commodity/brand",
+    "pages/My/commodity/Model",
+    "pages/My/group/Establish",
+    "pages/My/activity/Promotion",
+    "pages/My/activity/HolidaySale",
+    "pages/My/activity/follow",
+    "pages/My/capital/History",
+    "pages/My/query/Information",
+    "pages/My/capital/query",
+    "pages/My/staff/staff",
+    "pages/My/My",
+    "pages/My/capital/capital",
+    "pages/My/activity/activity",
+    "pages/My/capital/Analysis",
+    "pages/My/capital/Record",
+    "pages/My/capital/income",
+    "pages/My/group/group",
+    "pages/Order/Order",
+    "pages/My/commodity/commodity"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "叮当送水联盟",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#fff"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#24A1FE",
+    "list": [
+      {
+        "iconPath": "/static/Order(1).png",
+        "selectedIconPath": "/static/Order.png",
+        "pagePath": "pages/Order/Order",
+        "text": "订单"
+      },
+      {
+        "iconPath": "/static/Statistics.png",
+        "selectedIconPath": "/static/Statistics(1).png",
+        "pagePath": "pages/Statistics/Statistics",
+        "text": "统计"
+      },
+      {
+        "iconPath": "/static/My(1).png",
+        "selectedIconPath": "/static/My.png",
+        "pagePath": "pages/My/My",
+        "text": "我的"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "水站",
+  "compilerVersion": "2.5.1",
+  "usingComponents": {}
+}

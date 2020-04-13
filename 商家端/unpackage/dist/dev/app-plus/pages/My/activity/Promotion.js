@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"Welfare { height: 100%; }\n.",[1],"Welfare .",[1],"welfare { -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; overflow-y: auto; display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; flex-direction: column; background: #c00003; }\n",],undefined,{path:"./pages/My/activity/Promotion.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/My/activity/Promotion.wxml') } }));

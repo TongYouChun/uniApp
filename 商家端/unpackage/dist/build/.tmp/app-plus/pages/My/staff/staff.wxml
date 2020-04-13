@@ -1,0 +1,1 @@
+<view class="staff flex-column height align-items background-F0F4F7"><block wx:if="{{NoStaff}}"><nostaff vue-id="1" bind:__l="__l"></nostaff></block><yes-staff vue-id="2" bind:__l="__l"></yes-staff></view>

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "自动填入店铺名称",
+  "usingComponents": {
+    "distribution": "/components/distribution",
+    "delivery": "/components/Delivery"
+  }
+}

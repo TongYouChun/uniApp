@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.Addroduct .text {
+  margin: 18rpx 0 20rpx 0;
+}
+.Addroduct .text .text1 text:nth-child(2) {
+    width: 430rpx;
+}
+.Addroduct .text .text1 .you {
+    width: 15rpx;
+    height: 25rpx;
+}
+.Addroduct .text .text2 text:nth-child(2) {
+    width: 430rpx;
+}
+.Addroduct .text .text2 .you {
+    width: 15rpx;
+    height: 25rpx;
+}
+.Addroduct .text .text3 {
+    height: 400rpx;
+}
+.Addroduct .text .text3 .text:nth-child(1) {
+      margin: 36rpx 0 0 24rpx;
+}
+.Addroduct .text .text3 .Chart {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+              flex: 1;
+}
+.Addroduct .text .text3 .Chart .Img {
+        width: 128rpx;
+        height: 110rpx;
+        border: 2rpx dashed #CCC;
+        border-radius: 10rpx;
+}
+.Addroduct .text .text3 .Chart .Img .ing {
+          width: 64rpx;
+          height: 55rpx;
+}
+.Addroduct .text .text3 .Chart .Ing {
+        width: 333rpx;
+        height: 333rpx;
+}
+.Addroduct .text .text4 {
+    height: 95rpx;
+}
+.Addroduct .text .text4 .input4 {
+      margin-left: 52rpx;
+      width: 450rpx;
+}
+.Addroduct .text5 .input5 {
+  padding-right: 150rpx;
+  width: 180rpx;
+}
+.Addroduct .text6 {
+  margin: 18rpx 0 35rpx 0;
+  height: 100rpx;
+}
+.Addroduct .text6 .input6 {
+    padding-right: 150rpx;
+    width: 150rpx;
+}
+.Addroduct .text6 .YzanZheng {
+    height: 50rpx;
+}
+.Addroduct .text6 .YzanZheng .canvas {
+      width: 90px;
+      height: 28px;
+      border-radius: 4px;
+      text-align: center;
+}
+.Addroduct .text6 .YzanZheng .Load {
+      margin: 0 20rpx;
+      height: 45rpx;
+      width: 45rpx;
+}
+.Addroduct .text7 {
+  width: 710rpx;
+  height: 90rpx;
+  background: #BFE3C9;
+  border-radius: 10rpx;
+  margin-left: 20rpx;
+}
+.Addroduct .Te {
+  background: #18BA42;
+}
+

@@ -1,0 +1,1 @@
+<view class="Welfare flex-column "><view class="welfare"><promotion vue-id="1" bind:__l="__l"></promotion></view></view>

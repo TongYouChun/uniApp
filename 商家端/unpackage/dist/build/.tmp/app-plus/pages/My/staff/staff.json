@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "员工管理",
+  "usingComponents": {
+    "nostaff": "/components/Nostaff",
+    "yes-staff": "/components/YesStaff"
+  }
+}

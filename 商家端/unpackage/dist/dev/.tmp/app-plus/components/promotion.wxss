@@ -1,0 +1,270 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.Promotion {
+  position: relative;
+  z-index: 0;
+}
+.Promotion .promotion {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 750rpx;
+    height: 1370rpx;
+}
+.Promotion .promotion-top {
+    margin-top: 376rpx;
+    color: #B60A08;
+}
+.Promotion .promotion-top text:nth-child(2) {
+      margin-left: 25rpx;
+}
+.Promotion .promotion-bottom {
+    margin-top: 144rpx;
+    position: relative;
+    z-index: 0;
+}
+.Promotion .promotion-bottom .te {
+      width: 552rpx;
+      height: 74rpx;
+      position: relative;
+}
+.Promotion .promotion-bottom .te .TexT {
+        position: absolute;
+        z-index: 0;
+        top: 12rpx;
+        left: 188rpx;
+}
+.Promotion .promotion-bottom .te .img:nth-child(2) {
+        width: 32rpx;
+        height: 30rpx;
+}
+.Promotion .promotion-bottom .te .img:nth-child(3) {
+        width: 488rpx;
+        height: 74rpx;
+}
+.Promotion .promotion-bottom .te .img:nth-child(4) {
+        width: 32rpx;
+        height: 30rpx;
+}
+.Promotion .promotion-bottom .Content {
+      position: absolute;
+      z-index: -1;
+      top: 30rpx;
+      left: 0;
+}
+.Promotion .promotion-bottom .Content .Kontent {
+        border-radius: 20rpx;
+        margin-bottom: 50rpx;
+}
+.Promotion .promotion-bottom .Content .Kontent .content .payoff {
+          margin-left: 185rpx;
+          width: 52rpx;
+          height: 60rpx;
+}
+.Promotion .promotion-bottom .Content .Kontent .content .content-top {
+          height: 60rpx;
+          margin-top: 76rpx;
+}
+.Promotion .promotion-bottom .Content .Kontent .content .content-top .input {
+            margin: 0 130rpx 0 30rpx;
+            font-size: 30rpx;
+            width: 200rpx;
+            color: #888;
+}
+.Promotion .promotion-bottom .Content .Kontent .content .content-top .text:nth-child(3) {
+            width: 46rpx;
+            height: 46rpx;
+            background: #F95555;
+            border-radius: 50%;
+}
+.Promotion .promotion-bottom .Content .Kontent .content .content-top .text:nth-child(3) text {
+              width: 20rpx;
+              height: 4rpx;
+              background: #fff;
+}
+.Promotion .promotion-bottom .Content .Kontent .content .li {
+          width: 690rpx;
+}
+.Promotion .promotion-bottom .Content .Kontent .content .li .Text1 {
+            height: 82rpx;
+            margin: 17rpx 0 15rpx 0;
+}
+.Promotion .promotion-bottom .Content .Kontent .content .li .Text1 .text:nth-child(1) {
+              margin: 0 50rpx 0 57rpx;
+              height: 82rpx;
+              line-height: 82rpx;
+}
+.Promotion .promotion-bottom .Content .Kontent .content .li .Text1 .text:nth-child(3) {
+              margin-left: 20rpx;
+              height: 82rpx;
+              line-height: 82rpx;
+}
+.Promotion .promotion-bottom .Content .Kontent .content .li .Text1 .TexT {
+              color: #CB241B;
+              height: 82rpx;
+              width: 293rpx;
+              border-bottom: 1rpx solid #A6A6A6;
+}
+.Promotion .promotion-bottom .Content .Kontent .content .li .Text1 .TexT .input {
+                width: 200rpx;
+}
+.Promotion .promotion-bottom .Content .Kontent .content .li .Text2 {
+            height: 82rpx;
+            margin: 17rpx 0 15rpx 0;
+}
+.Promotion .promotion-bottom .Content .Kontent .content .li .Text2 .text:nth-child(1) {
+              margin: 0 50rpx 0 57rpx;
+              height: 82rpx;
+              line-height: 82rpx;
+}
+.Promotion .promotion-bottom .Content .Kontent .content .li .Text2 .text:nth-child(3) {
+              margin-left: 20rpx;
+              height: 82rpx;
+              line-height: 82rpx;
+}
+.Promotion .promotion-bottom .Content .Kontent .content .li .Text2 .TexT {
+              color: #CB241B;
+              height: 82rpx;
+              width: 293rpx;
+              border-bottom: 1rpx solid #A6A6A6;
+}
+.Promotion .promotion-bottom .Content .Kontent .content .li .Text2 .TexT .input {
+                width: 200rpx;
+}
+.Promotion .promotion-bottom .Content .Kontent .content .li .Text3 {
+            height: 82rpx;
+            margin: 17rpx 0 15rpx 0;
+}
+.Promotion .promotion-bottom .Content .Kontent .content .li .Text3 .text:nth-child(1) {
+              margin: 0 50rpx 0 57rpx;
+              height: 82rpx;
+              line-height: 82rpx;
+}
+.Promotion .promotion-bottom .Content .Kontent .content .li .Text3 .text:nth-child(3) {
+              margin-left: 20rpx;
+              height: 82rpx;
+              line-height: 82rpx;
+}
+.Promotion .promotion-bottom .Content .Kontent .content .li .Text3 .TexT {
+              color: #CB241B;
+              height: 82rpx;
+              width: 293rpx;
+              border-bottom: 1rpx solid #A6A6A6;
+}
+.Promotion .promotion-bottom .Content .Kontent .content .li .Text3 .TexT .input {
+                width: 200rpx;
+}
+.Promotion .promotion-bottom .Content .Kontent .content .li .Text4 {
+            height: 82rpx;
+            margin: 17rpx 0 15rpx 0;
+}
+.Promotion .promotion-bottom .Content .Kontent .content .li .Text4 .text:nth-child(1) {
+              margin: 0 50rpx 0 57rpx;
+              height: 82rpx;
+              line-height: 82rpx;
+}
+.Promotion .promotion-bottom .Content .Kontent .content .li .Text4 .text:nth-child(3) {
+              margin-left: 20rpx;
+              height: 82rpx;
+              line-height: 82rpx;
+}
+.Promotion .promotion-bottom .Content .Kontent .content .li .Text4 .TexT {
+              color: #CB241B;
+              height: 82rpx;
+              width: 293rpx;
+              border-bottom: 1rpx solid #A6A6A6;
+}
+.Promotion .promotion-bottom .Content .Kontent .content .li .Text4 .TexT .input {
+                width: 200rpx;
+}
+.Promotion .promotion-bottom .Content .Kontent .Plus {
+          margin-top: 44rpx;
+          width: 690rpx;
+          height: 46rpx;
+}
+.Promotion .promotion-bottom .Content .Kontent .Plus .plus {
+            width: 46rpx;
+            height: 46rpx;
+            border-radius: 50%;
+            background: #4DD7AA;
+            position: relative;
+}
+.Promotion .promotion-bottom .Content .Kontent .Plus .plus .text {
+              position: absolute;
+              top: 0;
+              left: 0;
+              bottom: 0;
+              right: 0;
+              margin: auto;
+              width: 20rpx;
+              height: 4rpx;
+              background: #fff;
+}
+.Promotion .promotion-bottom .Content .Kontent .Plus .plus text {
+              position: absolute;
+              top: 0;
+              left: 0;
+              bottom: 0;
+              right: 0;
+              margin: auto;
+              width: 4rpx;
+              height: 20rpx;
+              background: #fff;
+}
+.Promotion .promotion-bottom .Content .Kontent .button {
+          margin: 78rpx 0 50rpx 0;
+          text-align: center;
+          line-height: 80rpx;
+          width: 400rpx;
+          height: 80rpx;
+          border-radius: 40rpx;
+          background: -webkit-linear-gradient(bottom, #ff9a63, #ffbb79);
+          background: linear-gradient(0deg, #ff9a63, #ffbb79);
+}
+.Promotion .promotion-bottom .Content .Kontent .TexT1 {
+          width: 100%;
+          margin-bottom: 90rpx;
+          color: #0058BA;
+}
+.Promotion .promotion-bottom .Content .Kontent .Tips .Text1 {
+          margin-bottom: 20rpx;
+          color: #BA0908;
+}
+.Promotion .promotion-bottom .Content .Kontent .Tips .Text2 {
+          margin-bottom: 66rpx;
+}
+.Promotion .promotion-bottom .Content .Kontent .Tips .Text2 .texT1 {
+            margin-left: 75rpx;
+}
+.Promotion .promotion-bottom .Content .Kontent .Tips .Text2 .texT2 {
+            margin-left: 75rpx;
+}
+.Promotion .promotion-bottom .Content .Kontent .Tips .Text2 .texT3 {
+            margin-left: 75rpx;
+}
+

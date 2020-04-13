@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+                CSS.supports('top: constant(a)'))
+            document.write(
+                '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+                (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"]::-webkit-search-cancel-button {
+                display: none;
+            }
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"水站","entryPagePath":"pages/index/index.html","page":{"pages/index/index.html":{"window":{"navigationBarTitleText":"叮当送水联盟","usingComponents":{}}},"pages/My/query/query.html":{"window":{"navigationBarTitleText":"订单查询","usingComponents":{"transaction":"/components/transaction","mix-pulldown-refresh":"/components/mix-pulldown-refresh/mix-pulldown-refresh","mix-load-more":"/components/mix-load-more/mix-load-more","mix-advert":"/components/mix-advert/vue/mix-advert"}}},"pages/My/staff/addstaff.html":{"window":{"navigationBarTitleText":"添加人员","usingComponents":{}}},"pages/My/commodity/addproduct.html":{"window":{"navigationBarTitleText":"添加商品","usingComponents":{}}},"pages/My/group/See.html":{"window":{"navigationBarTitleText":"查看组","usingComponents":{}}},"pages/My/group/modify.html":{"window":{"navigationBarTitleText":"修改组","usingComponents":{}}},"pages/Statistics/Statistics.html":{"window":{"navigationBarTitleText":"统计","usingComponents":{"complaint":"/components/Complaint","evaluate":"/components/evaluate","u-charts":"/components/u-charts/u-charts"}}},"pages/My/capital/Analysis.html":{"window":{"navigationBarTitleText":"收入分析","usingComponents":{"u-charts":"/components/u-charts/u-charts"}}},"pages/My/activity/Discount.html":{"window":{"navigationBarTitleText":"创建节日折扣","usingComponents":{}}},"pages/Statistics/Complaint/Complaint.html":{"window":{"navigationBarTitleText":"投诉处置","usingComponents":{}}},"pages/Statistics/Complaint/detailed.html":{"window":{"navigationBarTitleText":"投诉详细","usingComponents":{}}},"pages/My/commodity/brand.html":{"window":{"navigationBarTitleText":"查询品牌","usingComponents":{"city-select":"/components/city-select/city-select"}}},"pages/My/commodity/Model.html":{"window":{"navigationBarTitleText":"添加型号","usingComponents":{}}},"pages/My/group/Establish.html":{"window":{"navigationBarTitleText":"创建配送组","usingComponents":{}}},"pages/My/activity/Promotion.html":{"window":{"navigationBarTitleText":"红包促销","usingComponents":{"promotion":"/components/promotion"}}},"pages/My/activity/HolidaySale.html":{"window":{"navigationBarTitleText":"节日促销","usingComponents":{}}},"pages/My/activity/follow.html":{"window":{"navigationBarTitleText":"分享关注","usingComponents":{}}},"pages/My/capital/History.html":{"window":{"navigationBarTitleText":"历史收入","usingComponents":{}}},"pages/My/query/Information.html":{"window":{"navigationBarTitleText":"订单","usingComponents":{}}},"pages/My/capital/query.html":{"window":{"navigationBarTitleText":"详细查询","usingComponents":{}}},"pages/My/staff/staff.html":{"window":{"navigationBarTitleText":"员工管理","usingComponents":{"nostaff":"/components/Nostaff","yes-staff":"/components/YesStaff"}}},"pages/My/My.html":{"window":{"navigationBarTitleText":"我的","usingComponents":{}}},"pages/My/capital/capital.html":{"window":{"navigationBarTitleText":"资金管理","usingComponents":{}}},"pages/My/activity/activity.html":{"window":{"navigationBarTitleText":"活动促销","usingComponents":{}}},"pages/My/capital/Record.html":{"window":{"navigationBarTitleText":"提现记录","usingComponents":{}}},"pages/My/capital/income.html":{"window":{"navigationBarTitleText":"收入明细","usingComponents":{}}},"pages/My/group/group.html":{"window":{"navigationBarTitleText":"配送组管理","usingComponents":{}}},"pages/Order/Order.html":{"window":{"navigationBarTitleText":"自动填入店铺名称","usingComponents":{"distribution":"/components/distribution","delivery":"/components/Delivery"}}},"pages/My/commodity/commodity.html":{"window":{"navigationBarTitleText":"商品管理","usingComponents":{"no-commodity":"/components/No","yes-commodity":"/components/Yes"}}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"叮当送水联盟","navigationBarBackgroundColor":"#fff","backgroundColor":"#fff"}},"tabBar":{"color":"#666","selectedColor":"#24A1FE","backgroundColor":"","borderStyle":"black","list":[{"iconPath":"/static/Order(1).png","selectedIconPath":"/static/Order.png","pagePath":"pages/Order/Order.html","text":"订单"},{"iconPath":"/static/Statistics.png","selectedIconPath":"/static/Statistics(1).png","pagePath":"pages/Statistics/Statistics.html","text":"统计"},{"iconPath":"/static/My(1).png","selectedIconPath":"/static/My.png","pagePath":"pages/My/My.html","text":"我的"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/index/index","pages/My/query/query","pages/My/staff/addstaff","pages/My/commodity/addproduct","pages/My/group/See","pages/My/group/modify","pages/Statistics/Statistics","pages/My/capital/Analysis","pages/My/activity/Discount","pages/Statistics/Complaint/Complaint","pages/Statistics/Complaint/detailed","pages/My/commodity/brand","pages/My/commodity/Model","pages/My/group/Establish","pages/My/activity/Promotion","pages/My/activity/HolidaySale","pages/My/activity/follow","pages/My/capital/History","pages/My/query/Information","pages/My/capital/query","pages/My/staff/staff","pages/My/My","pages/My/capital/capital","pages/My/activity/activity","pages/My/capital/Analysis","pages/My/capital/Record","pages/My/capital/income","pages/My/group/group","pages/Order/Order","pages/My/commodity/commodity"],"nvueCompiler":"uni-app","renderer":"auto","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"2.5.1","usingComponents":{}}
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                var wxss = page.replace('.html', '.wxss')
+                if (
+                    typeof __wxAppCode__ !== 'undefined' &&
+                    __wxAppCode__.hasOwnProperty(wxss)
+                ) {
+                    var setCssToHead = __wxAppCode__[wxss]
+                    typeof setCssToHead === 'function' && setCssToHead()
+                    document.dispatchEvent(new CustomEvent("generateFuncReady", {
+                        detail: {
+                            generateFunc: $gwx(page.replace('.html', '.wxml'))
+                        }
+                    }));
+                } else {
+                    plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+                }
+            };
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

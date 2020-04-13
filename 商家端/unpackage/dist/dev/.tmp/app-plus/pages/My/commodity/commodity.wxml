@@ -1,0 +1,1 @@
+<view class="commodity-container flex-column background-F0F4F7 height"><block wx:if="{{Yes}}"><no-commodity vue-id="1" bind:__l="__l"></no-commodity></block><yes-commodity vue-id="2" bind:__l="__l"></yes-commodity></view>

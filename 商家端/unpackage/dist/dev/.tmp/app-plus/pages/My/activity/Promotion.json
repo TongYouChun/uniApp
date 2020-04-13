@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "红包促销",
+  "usingComponents": {
+    "promotion": "/components/promotion"
+  }
+}

@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.capital {
+  position: relative;
+  z-index: 0;
+}
+.capital .imgs {
+    position: absolute;
+    z-index: -1;
+    top: 4rpx;
+    left: 0;
+    width: 750rpx;
+    height: 336rpx;
+}
+.capital .capital-top {
+    width: 100%;
+}
+.capital .capital-top .income {
+      padding: 25rpx 0 12rpx 45rpx;
+}
+.capital .capital-top .income .text text:nth-child(1) {
+        margin-left: 10rpx;
+}
+.capital .capital-top .income .text text:nth-child(2) {
+        margin: 0 10rpx 0 17rpx;
+}
+.capital .capital-top .account {
+      margin-left: 45rpx;
+}
+.capital .capital-top .account .Text1 .text text:nth-child(1) {
+        margin-left: 10rpx;
+}
+.capital .capital-top .account .Text1 .text text:nth-child(2) {
+        margin: 0 10rpx 0 17rpx;
+}
+.capital .capital-top .account .Text2 {
+        margin: 0 48rpx 0 150rpx;
+}
+.capital .capital-top .account .Text2 .text text:nth-child(1) {
+          margin-left: 10rpx;
+}
+.capital .capital-top .account .Text2 .text text:nth-child(2) {
+          margin: 0 10rpx 0 17rpx;
+}
+.capital .capital-top .account .Text3 {
+        margin-top: 38rpx;
+}
+.capital .capital-top .account .Text3 .bu {
+          width: 128rpx;
+          height: 60rpx;
+          background: #2A406C;
+          border: 1rpx solid #5E7099;
+          border-radius: 10rpx;
+}
+.capital .option {
+    width: 570rpx;
+    padding: 0 70rpx;
+    height: 158rpx;
+    border-radius: 10rpx;
+}
+.capital .option .Text1 .im {
+      margin-bottom: 20rpx;
+      width: 43rpx;
+      height: 36rpx;
+}
+.capital .option .Text2 .im {
+      margin-bottom: 20rpx;
+      width: 37rpx;
+      height: 36rpx;
+}
+.capital .option .Text3 .im {
+      margin-bottom: 20rpx;
+      width: 44rpx;
+      height: 41rpx;
+}
+.capital .option .Text4 .im {
+      margin-bottom: 20rpx;
+      width: 36rpx;
+      height: 37rpx;
+}
+.capital .Content .TexT {
+    width: 695rpx;
+    padding: 28rpx 0 15rpx 15rpx;
+}
+.capital .Content .information .contact-top {
+    border-radius: 10rpx 10rpx 0  0;
+    height: 156rpx;
+}
+.capital .Content .information .contact-top .Estimate {
+      height: 100rpx;
+      width: 334rpx;
+}
+.capital .Content .information .contact-top .Estimate .text {
+        height: 24rpx;
+        line-height: 24rpx;
+}
+.capital .Content .information .contact-top .Estimate .texT {
+        height: 76rpx;
+}
+.capital .Content .information .contact-top .Estimate .texT .Text {
+          margin-top: 36rpx;
+          color: #7C9AD5;
+          text-align: center;
+          width: 334rpx;
+          height: 40rpx;
+}
+.capital .Content .information .contact-top .Estimate .texT .Text text:nth-child(2) {
+            margin: 0 10rpx;
+            height: 40rpx;
+            line-height: 40rpx;
+}
+.capital .Content .information .contact-top .income {
+      height: 100rpx;
+      width: 334rpx;
+}
+.capital .Content .information .contact-top .income .text {
+        height: 24rpx;
+        line-height: 24rpx;
+}
+.capital .Content .information .contact-top .income .Text {
+        margin-top: 36rpx;
+        color: #FF5858;
+        text-align: center;
+        width: 334rpx;
+        height: 40rpx;
+}
+.capital .Content .information .contact-top .income .Text text:nth-child(2) {
+          margin: 0 10rpx;
+          height: 40rpx;
+          line-height: 40rpx;
+}
+.capital .Content .information .contact-bottom {
+    margin-top: 8rpx;
+    border-radius: 0  0 10rpx 10rpx;
+}
+.capital .Content .information .contact-bottom .contact {
+      margin: 0 24rpx 0 26rpx;
+      height: 124rpx;
+}
+.capital .Content .information .contact-bottom .contact .Text1 {
+        width: 360rpx;
+        height: 64rpx;
+}
+.capital .Content .information .contact-bottom .contact .Text1 text:nth-child(1) {
+          height: 23rpx;
+          line-height: 23rpx;
+}
+.capital .Content .information .contact-bottom .contact .Text1 text:nth-child(2) {
+          margin-top: 14rpx;
+          height: 24rpx;
+          line-height: 24rpx;
+}
+.capital .Content .information .contact-bottom .contact .Text2 {
+        width: 210rpx;
+        line-height: 20rpx;
+        height: 20rpx;
+}
+.capital .Content .information .contact-bottom .contact .Text3 {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+                flex: 1;
+}
+.capital .Content .information .contact-bottom .contact .Text3 text:nth-child(2) {
+          margin-left: 10rpx;
+}
+

@@ -1,0 +1,188 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "叮当送水联盟"
+			}
+		},{
+		    "path" : "pages/My/query/query",
+		    "style" : {
+				"navigationBarTitleText": "订单查询"
+			}
+		},{
+		    "path" : "pages/My/staff/addstaff",
+		    "style" : {
+				"navigationBarTitleText": "添加人员"
+			}
+		},{
+		    "path" : "pages/My/commodity/addproduct",
+		    "style" : {
+				"navigationBarTitleText": "添加商品"
+			}
+		},{
+		    "path" : "pages/My/group/See",
+		    "style" : {
+				"navigationBarTitleText": "查看组"
+			}
+		},{
+		    "path" : "pages/My/group/modify",
+		    "style" : {
+				"navigationBarTitleText": "修改组"
+			}
+		},{
+			"path": "pages/Statistics/Statistics",
+			"style": {
+				"navigationBarTitleText": "统计"
+			}
+		},{
+		    "path" : "pages/My/capital/Analysis",
+		    "style" : {
+				"navigationBarTitleText": "收入分析"
+			}
+		},{
+		    "path" : "pages/My/activity/Discount",
+		    "style" : {
+				"navigationBarTitleText": "创建节日折扣"
+			}
+		},{
+		    "path" : "pages/Statistics/Complaint/Complaint",
+		    "style" : {
+				"navigationBarTitleText": "投诉处置"
+			}
+		},{
+		    "path" : "pages/Statistics/Complaint/detailed",
+		    "style" : {
+				"navigationBarTitleText": "投诉详细"
+			}
+		},{
+		    "path" : "pages/My/commodity/brand",
+		    "style" : {
+				"navigationBarTitleText": "查询品牌"
+			}
+		},{
+		    "path" : "pages/My/commodity/Model",
+		    "style" : {
+				"navigationBarTitleText": "添加型号"
+			}
+		},{
+		    "path" : "pages/My/group/Establish",
+		    "style" : {
+				"navigationBarTitleText": "创建配送组"
+			}
+		},{
+		    "path" : "pages/My/activity/Promotion",
+		    "style" : {
+				"navigationBarTitleText": "红包促销"
+			}
+		},{
+		    "path" : "pages/My/activity/HolidaySale",
+		    "style" : {
+				"navigationBarTitleText": "节日促销"
+			}
+		},{
+		    "path" : "pages/My/activity/follow",
+		    "style" : {
+				"navigationBarTitleText": "分享关注"
+			}
+		},{
+		    "path" : "pages/My/capital/History",
+		    "style" : {
+				"navigationBarTitleText": "历史收入"
+			}
+		},{
+		    "path" : "pages/My/query/Information",
+		    "style" : {
+				"navigationBarTitleText": "订单"
+			}
+		},{
+		    "path" : "pages/My/capital/query",
+		    "style" : {
+				"navigationBarTitleText": "详细查询"
+			}
+		},{
+		    "path" : "pages/My/staff/staff",
+		    "style" : {
+				"navigationBarTitleText": "员工管理"
+			}
+		},{
+			"path": "pages/My/My",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},{
+		    "path" : "pages/My/capital/capital",
+		    "style" : {
+				"navigationBarTitleText": "资金管理"
+			}
+		},{
+		    "path" : "pages/My/activity/activity",
+		    "style" : {
+				"navigationBarTitleText": "活动促销"
+			}
+		},{
+		    "path" : "pages/My/capital/Analysis",
+		    "style" : {
+				"navigationBarTitleText": "收入分析"
+			}
+		},{
+		    "path" : "pages/My/capital/Record",
+		    "style" : {
+				"navigationBarTitleText": "提现记录"
+			}
+		},{
+		    "path" : "pages/My/capital/income",
+		    "style" : {
+				"navigationBarTitleText": "收入明细"
+			}
+		},{
+		    "path" : "pages/My/group/group",
+		    "style" : {
+				"navigationBarTitleText": "配送组管理"
+			}
+		},
+		{
+			"path": "pages/Order/Order",
+			"style": {
+				"navigationBarTitleText": "自动填入店铺名称"
+			}
+		},
+		{
+		    "path" : "pages/My/commodity/commodity",
+		    "style" : {
+				"navigationBarTitleText": "商品管理"
+			}
+		}
+		
+    ],
+	"tabBar": {
+	    "color": "#666",
+	    "selectedColor": "#24A1FE",
+	    "list": [
+	      {
+	        "iconPath": "/static/Order(1).png",
+	        "selectedIconPath": "/static/Order.png",
+	        "pagePath": "pages/Order/Order",
+	        "text": "订单"
+	      },
+	      {
+	        "iconPath": "/static/Statistics.png",
+	        "selectedIconPath": "/static/Statistics(1).png",
+	        "pagePath": "pages/Statistics/Statistics",
+	        "text": "统计"
+	      },
+	      {
+	        "iconPath": "/static/My(1).png",
+	        "selectedIconPath": "/static/My.png",
+	        "pagePath": "pages/My/My",
+	        "text": "我的"
+	      }
+	    ]
+	  },
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "叮当送水联盟",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#fff"
+	}
+}

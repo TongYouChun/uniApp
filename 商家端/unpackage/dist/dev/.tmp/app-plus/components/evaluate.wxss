@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.evaluate .h4 {
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.evaluate .h4 .li {
+    width: auto;
+    border-radius: 8rpx;
+    padding: 10rpx 20rpx;
+    margin: 10rpx;
+    height: 40rpx;
+    background: #fcd;
+    line-height: 50rpx;
+}
+.evaluate .h4 .te {
+    background: #f00;
+    color: #fff;
+}
+.evaluate .Content .content .time {
+  padding-left: 22rpx;
+  height: 74rpx;
+}
+.evaluate .Content .content .time text {
+    margin-top: 30rpx;
+    height: 24rpx;
+    line-height: 24rpx;
+}
+.evaluate .Content .content .Information {
+  border-top: 1rpx solid #D0DAE1;
+  border-bottom: 1rpx solid #D0DAE1;
+}
+.evaluate .Content .content .Information .Li .img {
+    margin: 38rpx 28rpx 46rpx 6rpx;
+    width: 80rpx;
+    height: 80rpx;
+    border-radius: 50%;
+}
+.evaluate .Content .content .Information .Li .evaluate .text1 {
+    margin-top: 32rpx;
+}
+.evaluate .Content .content .Information .Li .evaluate .text1 text {
+      margin-right: 20rpx;
+      color: #666;
+}
+.evaluate .Content .content .Information .Li .evaluate .text1 .img1 {
+      width: 28rpx;
+      height: 28rpx;
+}
+.evaluate .Content .content .Information .Li .evaluate .text2 {
+    margin: 10rpx 0 20rpx 0;
+}
+.evaluate .Content .content .Information .Li .evaluate .text2 .Img .ing {
+      margin: 10rpx 10rpx 10rpx 0;
+      width: 180rpx;
+      height: 180rpx;
+      border: 1rpx solid #fdfdfd;
+      border-radius: 5rpx;
+}
+.evaluate .Content .content .Information .Li .evaluate .text3 {
+    margin-bottom: 32rpx;
+    width: 100%;
+    height: 80rpx;
+    background: #F6F8F9;
+    color: #7A7A7A;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+}
+.evaluate .Content .content .Information .Li .evaluate .text3 text:nth-child(1) {
+      margin-left: 10rpx;
+}
+.evaluate .Content .content .Information .information1 {
+    border-top: 1rpx solid #E2E2E2;
+}
+

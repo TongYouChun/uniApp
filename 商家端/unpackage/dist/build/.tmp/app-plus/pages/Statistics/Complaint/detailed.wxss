@@ -1,0 +1,241 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.Complaint .h4 {
+  height: 67rpx;
+}
+.Complaint .h4 text:nth-child(1) {
+    margin-left: 12rpx;
+}
+.Complaint .Content_top {
+  border: 1rpx solid #D0DAE1;
+  border-radius: 10rpx;
+}
+.Complaint .Content_top .User {
+    width: 670rpx;
+}
+.Complaint .Content_top .User .h5 {
+      height: 68rpx;
+}
+.Complaint .Content_top .User .Information {
+      border-bottom: 1rpx solid #C9D6E0;
+      height: 170rpx;
+      padding-left: 12rpx;
+}
+.Complaint .Content_top .User .Information .TexT1 {
+        width: 80rpx;
+}
+.Complaint .Content_top .User .Information .TexT1 .ig {
+          width: 80rpx;
+          height: 80rpx;
+          border-radius: 50%;
+}
+.Complaint .Content_top .User .Information .TexT1 text {
+          margin-top: 16rpx;
+          height: 24rpx;
+          line-height: 24rpx;
+}
+.Complaint .Content_top .User .Information .TexT2 {
+        margin-left: 28rpx;
+}
+.Complaint .Content_top .User .Information .TexT2 .Text1 .text1 text:nth-child(2) {
+          margin-left: 10rpx;
+}
+.Complaint .Content_top .User .Information .TexT2 .Text1 .text2 text:nth-child(2) {
+          margin-left: 20rpx;
+}
+.Complaint .Content_top .User .Telephone {
+      border-bottom: 1rpx solid #C9D6E0;
+      height: 266rpx;
+}
+.Complaint .Content_top .User .Telephone .telephone {
+        margin-top: 22rpx;
+        margin-right: 38rpx;
+        width: 100rpx;
+}
+.Complaint .Content_top .User .Telephone .telephone .im {
+          height: 64rpx;
+          width: 64rpx;
+}
+.Complaint .Content_top .User .Telephone .telephone text {
+          margin-top: 16rpx;
+          height: 24rpx;
+          line-height: 24rpx;
+}
+.Complaint .Content_top .User .Telephone .number {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+                flex: 1;
+}
+.Complaint .Content_top .User .Telephone .number .text1 {
+          margin: 34rpx 0;
+          height: 30rpx;
+          line-height: 30rpx;
+}
+.Complaint .Content_top .User .Telephone .number .TeXt {
+          height: 32rpx;
+          padding-bottom: 36rpx;
+}
+.Complaint .Content_top .User .Telephone .number .TeXt .text {
+            height: 32rpx;
+}
+.Complaint .Content_top .User .Telephone .number .TeXt .text .ig {
+              margin-right: 30rpx;
+              width: 34rpx;
+              height: 32rpx;
+}
+.Complaint .Content_top .User .Telephone .number .TeXt .text text {
+              height: 32rpx;
+              line-height: 32rpx;
+}
+.Complaint .Content_top .User .Telephone .number .TeXt .text text:nth-child(1) {
+              margin-right: 20rpx;
+}
+.Complaint .Content_top .User .Telephone .number .TeXt .text:nth-child(2) {
+            margin-right: 14rpx;
+}
+.Complaint .Content_top .User .WeChat {
+      padding-bottom: 50rpx;
+}
+.Complaint .Content_top .User .WeChat .weChat1 {
+        width: 120rpx;
+        margin-top: 18rpx;
+}
+.Complaint .Content_top .User .WeChat .weChat1 .im {
+          width: 64rpx;
+          height: 64rpx;
+}
+.Complaint .Content_top .User .WeChat .weChat1 text {
+          margin-top: 12rpx;
+          line-height: 24rpx;
+          height: 24rpx;
+}
+.Complaint .Content_top .User .WeChat .weChat2 {
+        width: 100%;
+        margin-left: 20rpx;
+}
+.Complaint .Content_top .User .WeChat .weChat2 .Wechat .text1 .tet {
+          margin-top: 27rpx;
+          height: 30rpx;
+          line-height: 30rpx;
+}
+.Complaint .Content_top .User .WeChat .weChat2 .Wechat .text1 .text {
+          margin: 80rpx 0 23rpx 0;
+          height: 20rpx;
+          line-height: 20rpx;
+}
+.Complaint .Content_top .User .WeChat .weChat2 .Wechat .text1 .text text:nth-child(2) {
+            margin-left: 20rpx;
+}
+.Complaint .Content_top .User .WeChat .weChat2 .Wechat .text2 {
+          width: 100%;
+          background: #F0F4F7;
+          border-radius: 5rpx;
+}
+.Complaint .Content_top .User .WeChat .weChat2 .Wechat .text2 .tet {
+            margin: 14rpx 0 12rpx 116rpx;
+            height: 30rpx;
+            line-height: 30rpx;
+            color: #448BC6;
+}
+.Complaint .Content_top .User .WeChat .weChat2 .Wechat .text2 .text {
+            padding: 11rpx 0 11rpx 30rpx;
+            height: 20rpx;
+            line-height: 20rpx;
+}
+.Complaint .Content_bottom {
+  border: 1rpx solid #D0DAE1;
+  margin-top: 20rpx;
+  height: 222rpx;
+  border-radius: 10rpx;
+}
+.Complaint .Content_bottom .h5 {
+    height: 68rpx;
+}
+.Complaint .Content_bottom .User .Text1 {
+    margin-left: 33rpx;
+    width: 82;
+}
+.Complaint .Content_bottom .User .Text1 .ing {
+      width: 82rpx;
+      height: 82rpx;
+      border-radius: 50%;
+}
+.Complaint .Content_bottom .User .Text1 text {
+      height: 24rpx;
+      line-height: 24rpx;
+      margin-top: 14rpx;
+}
+.Complaint .Content_bottom .User .Text2 {
+    margin-left: 55rpx;
+}
+.Complaint .Content_bottom .User .Text2 .text1 {
+      height: 66rpx;
+      line-height: 66rpx;
+      color: #555;
+}
+.Complaint .Content_bottom .User .Text2 .text1 text:nth-child(2) {
+        margin-left: 10rpx;
+}
+.Complaint .Content_bottom .User .Text2 .text2 {
+      height: 66rpx;
+      line-height: 66rpx;
+      color: #555;
+}
+.Complaint .Content_bottom .User .Text2 .text2 text:nth-child(2) {
+        margin-left: 10rpx;
+}
+.Complaint .complete {
+  margin-top: 20rpx;
+  margin-bottom: 90rpx;
+  width: 710rpx;
+  height: 100rpx;
+  border: 1rpx solid #D0DAE1;
+  border-radius: 10rpx;
+  background: #fff;
+}
+.Complaint .complete .ing {
+    margin-left: 52rpx;
+    height: 44rpx;
+    width: 44rpx;
+}
+.Complaint .complete .text {
+    height: 24rpx;
+    line-height: 24rpx;
+}
+.Complaint .complete .text text:nth-child(1) {
+      margin-right: 20rpx;
+}
+.Complaint .complete .tet {
+    margin-right: 25rpx;
+    width: 188rpx;
+    height: 70rpx;
+    background: #555555;
+    text-align: center;
+    line-height: 70rpx;
+    border-radius: 10rpx;
+}
+

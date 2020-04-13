@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "收入分析",
+  "usingComponents": {
+    "u-charts": "/components/u-charts/u-charts"
+  }
+}
